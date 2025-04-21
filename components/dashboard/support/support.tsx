@@ -42,7 +42,7 @@ export default function Support() {
       icon: (
         <FontAwesomeIcon icon={faTelegram} className="text-cyan-500 w-5 h-5" />
       ),
-      link: "https://t.me/Swiftnexusbanksupport1",
+      link: "#",
       cta: "Chat on Telegram",
     },
     {

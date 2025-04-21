@@ -7,7 +7,7 @@ import { revalidatePath } from "next/cache";
 export default async function Page() {
   await dbConnect();
 revalidatePath("/")
-  const rawData = await Address.findOne({ name: "atlastrust" });
+  const rawData = await Address.findOne({ name: "orioncapital" });
   const data: PaymentAddress = JSON.parse(JSON.stringify(rawData));
   // console.log(data);
 

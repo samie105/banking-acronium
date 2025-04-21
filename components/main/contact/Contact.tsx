@@ -92,7 +92,7 @@ export default function Contact() {
                     Email
                   </div>
                   <div className="second  text-neutral-800 text-sm">
-                    Support@atlastrust.us
+                    Support@orioncapital.pro
                   </div>
                 </div>
               </div>{" "}

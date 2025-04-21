@@ -14,7 +14,7 @@ const inter = Raleway({
 });
 
 export const metadata: Metadata = {
-  title: "Atlas Trust | Best Digital Banking Platform",
+  title: "Orion Capital | Best Digital Banking Platform",
   description:
     "Experience cutting-edge banking with our innovative financial service.",
 };

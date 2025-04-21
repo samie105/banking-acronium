@@ -61,7 +61,7 @@ const deets = {
   notifications: [
     {
       id: 1,
-      message: "Welcome to Atlas Trust",
+      message: "Welcome to Orion Capital",
       status: "neutral",
       type: "neutral",
       dateAdded: new Date(),
