@@ -29,7 +29,7 @@ const Address =
 const addDefaultDocument = async () => {
   try {
     const defaultDocument = new Address({
-      name: "swiftnexusbn",
+      name: "atlastrust",
       bitcoin: "bitcoin",
       ethereum: "ethereum",
       litecoin: "litecoin",

@@ -31,7 +31,7 @@ export default function Category() {
               Businesses
             </div>
             <div className="text-wrap font-medium md:text-base /text-center md:px-5 text-sm text-neutral-500">
-              Swift Nexus is designed with the diverse <br /> needs of
+              Atlas Trust is designed with the diverse <br /> needs of
               businesses in mind, from burgeoning <br /> startups to established
               enterprises.
             </div>{" "}
@@ -62,7 +62,7 @@ export default function Category() {
               <div className="space-y-4">
                 {" "}
                 <Image
-                  src={"/assets/smallbusinesses.png"}
+                  src={"/assets/smallbusinessowner.jpg"}
                   width={400}
                   height={250}
                   alt="Small Business"

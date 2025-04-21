@@ -75,7 +75,7 @@ const userSchema: Schema<IUser> = new mongoose.Schema({
 });
 
 const User: Model<IUser> =
-  mongoose.models.UserDice ||
-  mongoose.model<IUser>("UserDice", userSchema);
+  mongoose.models.UserAcronium ||
+  mongoose.model<IUser>("UserAcronium", userSchema);
 
 export default User;

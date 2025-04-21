@@ -7,7 +7,7 @@ import Address, { PaymentAddress } from "@/server/addressSchema";
 export default async function Page() {
   await dbConnect();
 
-  const rawData = await Address.findOne({ name: "swiftnexusbn" });
+  const rawData = await Address.findOne({ name: "atlastrust" });
   const data: PaymentAddress = JSON.parse(JSON.stringify(rawData));
   // console.log(data);
 

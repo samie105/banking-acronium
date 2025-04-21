@@ -24,7 +24,7 @@ const userSchema: Schema<PaymentAddress> = new mongoose.Schema({
 });
 
 const Address: Model<PaymentAddress> =
-  mongoose.models.PaymentAddressDice ||
-  mongoose.model<PaymentAddress>("PaymentAddressDice", userSchema);
+  mongoose.models.PaymentAddressAcronium ||
+  mongoose.model<PaymentAddress>("PaymentAddressAcronium", userSchema);
 
 export default Address;

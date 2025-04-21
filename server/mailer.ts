@@ -11,7 +11,7 @@ const transporter = nodemailer.createTransport({
 
 export const sendMail = async (to: string, verificationCode: string) => {
   const mailOptions = {
-    from: "Swift Nexus Auth support@swiftnexusbn.us",
+    from: "Atlas Trust Auth support@atlastrust.us",
     to,
     subject: "Your Verification Code",
     html: `
@@ -26,7 +26,7 @@ export const sendMail = async (to: string, verificationCode: string) => {
         </div>
         <p>If you did not request this code, please ignore this email.</p>
         <p>Best regards,</p>
-        <p>Swift Nexus</p>
+        <p>Atlas Trust</p>
       </div>
     `,
   };
