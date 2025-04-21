@@ -13,7 +13,7 @@ revalidatePath("/")
 
   return (
     <div>
-      <AddressEdit data={data} />
+     {data && <AddressEdit data={data} />}
     </div>
   );
 }
