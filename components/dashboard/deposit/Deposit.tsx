@@ -6,7 +6,7 @@ import { PaymentAddress } from "@/server/addressSchema";
 export default function Deposits({ data }: { data: PaymentAddress }) {
   return (
     <div>
-      <DepMobileOptions data={data} />
+     {data&& <DepMobileOptions data={data} />}
       <DepositHistory />
     </div>
   );
