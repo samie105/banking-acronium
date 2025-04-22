@@ -23,8 +23,8 @@ const PaymentAddressSchema = new Schema({
 });
 
 const Address =
-  mongoose.models.PaymentAddressDice ||
-  mongoose.model("PaymentAddressDice", PaymentAddressSchema);
+  mongoose.models.PaymentAddressAcronium ||
+  mongoose.model("PaymentAddressAcronium", PaymentAddressSchema);
 
 const addDefaultDocument = async () => {
   try {
