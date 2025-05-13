@@ -1,7 +1,6 @@
 "use server";
 
 import Address, { PaymentAddress } from "@/server/addressSchema";
-import { revalidatePath } from "next/cache";
 import dbConnect from "..";
 
 export async function updateAddress(address: PaymentAddress) {
@@ -20,8 +19,6 @@ export async function updateAddress(address: PaymentAddress) {
     }
 
     console.log("Updated/Created address:", result);
-
-    revalidatePath("/");
     return { success: true };
   } catch (error) {
     console.error("Error updating payment address:", error);
